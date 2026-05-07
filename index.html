@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AEVUM — Premium Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="images/logo.png" alt="AEVUM Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"/>
+        <span class="logo-fallback">AEVUM</span>
+      </a>
+      <nav class="header__nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#features" class="nav__link">Features</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#testimonials" class="nav__link">Clients</a></li>
+        </ul>
+      </nav>
+      <a href="#cta" class="btn btn--primary header__cta">Start a Project</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__badge reveal">
+          <span class="badge__dot"></span>
+          <span>Now Accepting Premium Clients — 2025</span>
+        </div>
+        <h1 class="hero__headline reveal">
+          We Build Brands<br/>
+          <em>That Command</em><br/>
+          Attention.
+        </h1>
+        <p class="hero__subtext reveal">
+          AEVUM is a luxury digital studio crafting cinematic brand identities,
+          conversion-focused web experiences, and strategic digital ecosystems
+          for bold founders and visionary enterprises.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#services" class="btn btn--primary btn--lg">Explore Our Work</a>
+          <a href="#about" class="btn btn--ghost btn--lg">Our Philosophy →</a>
+        </div>
+        <div class="hero__stats reveal">
+          <div class="stat">
+            <span class="stat__num">150+</span>
+            <span class="stat__label">Projects Delivered</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">98%</span>
+            <span class="stat__label">Client Retention</span>
+          </div>
+          <div class="stat__divider"></div>
+          <div class="stat">
+            <span class="stat__num">12+</span>
+            <span class="stat__label">Years of Mastery</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Why AEVUM</span>
+          <h2 class="section__title">Precision at Every<br/>Level of Craft</h2>
+        </div>
+        <div class="features__grid">
+
+          <div class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="feature-card__title">Strategic Brand Architecture</h3>
+            <p class="feature-card__text">We don't just make logos. We architect brand systems that position you as the undeniable authority in your market.</p>
+            <span class="feature-card__tag">Brand Identity</span>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="feature-card__title">Cinematic Web Experiences</h3>
+            <p class="feature-card__text">Web design engineered for awe and conversion. Every pixel intentional, every interaction deliberate.</p>
+            <span class="feature-card__tag">Web Design</span>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="feature-card__title">Growth-Driven Strategy</h3>
+            <p class="feature-card__text">Data meets design. We build conversion funnels and digital strategies that turn traffic into revenue.</p>
+            <span class="feature-card__tag">Strategy</span>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+            </div>
+            <h3 class="feature-card__title">Product & SaaS Design</h3>
+            <p class="feature-card__text">Enterprise-grade UI/UX systems that scale beautifully. Intuitive interfaces your users will love instantly.</p>
+            <span class="feature-card__tag">UI / UX</span>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="feature-card__title">Motion & Visual Storytelling</h3>
+            <p class="feature-card__text">From brand films to micro-animations — we bring your narrative to life with cinematic motion design.</p>
+            <span class="feature-card__tag">Motion Design</span>
+          </div>
+
+          <div class="feature-card feature-card--accent reveal">
+            <div class="feature-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3 class="feature-card__title">Performance & SEO Excellence</h3>
+            <p class="feature-card__text">Speed, structure, and search authority built into every project from day one — not bolted on later.</p>
+            <span class="feature-card__tag">Performance</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT / VALUE ========== -->
+    <section class="about section" id="about">
+  <div class="container about__inner">
+
+    <div class="about__visual reveal">
+      <div class="about__frame">
+        <div class="about__img-placeholder">
+          <img src="images/waleed.png" alt="Waleed" class="about__real-img"/>
+        </div>
+      </div>
+      <div class="about__accent-bar"></div>
+    </div>
+
+    <div class="about__content reveal">
+      <span class="section__eyebrow">Our Philosophy</span>
+      <h2 class="section__title">Luxury Is Not<br/>an Aesthetic.<br/>It's a Standard.</h2>
+      <p class="about__text">
+        At AEVUM, we operate with one non-negotiable: every deliverable must be exceptional.
+        Not good. Not great. Exceptional. We reject mediocrity by design, working exclusively
+        with a select roster of clients who share our obsession with craft.
+      </p>
+      <p class="about__text">
+        Our team combines strategic intelligence with artistic precision — producing work that
+        not only turns heads but drives measurable business outcomes.
+      </p>
+      <div class="about__pillars">
+        <div class="pillar"><div class="pillar__dot"></div><span>Craft-First Culture</span></div>
+        <div class="pillar"><div class="pillar__dot"></div><span>Strategic Depth</span></div>
+        <div class="pillar"><div class="pillar__dot"></div><span>Selective Clientele</span></div>
+        <div class="pillar"><div class="pillar__dot"></div><span>Measurable Results</span></div>
+      </div>
+      <a href="#cta" class="btn btn--primary">Work With Us</a>
+    </div>
+
+  </div>
+</section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">What We Do</span>
+          <h2 class="section__title">Full-Spectrum Digital<br/>Excellence</h2>
+        </div>
+        <div class="services__grid">
+
+          <div class="service-card reveal">
+            <div class="service-card__number">01</div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Brand Identity & System Design</h3>
+              <p class="service-card__text">Complete brand ecosystems — from logo and color to voice, motion, and collateral systems that scale globally.</p>
+              <ul class="service-card__list">
+                <li>Logo & Visual Identity</li>
+                <li>Brand Guidelines</li>
+                <li>Collateral Design</li>
+              </ul>
+            </div>
+            <a href="#cta" class="service-card__link">Inquire →</a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__number">02</div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Web Design & Development</h3>
+              <p class="service-card__text">Pixel-perfect, performance-optimized web experiences engineered for conversion and crafted for wonder.</p>
+              <ul class="service-card__list">
+                <li>Landing Pages & Websites</li>
+                <li>E-Commerce Platforms</li>
+                <li>Web Applications</li>
+              </ul>
+            </div>
+            <a href="#cta" class="service-card__link">Inquire →</a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__number">03</div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Digital Strategy & Growth</h3>
+              <p class="service-card__text">Market positioning, funnel architecture, and growth frameworks that transform ambitious brands into category leaders.</p>
+              <ul class="service-card__list">
+                <li>Market Positioning</li>
+                <li>Conversion Optimization</li>
+                <li>Campaign Architecture</li>
+              </ul>
+            </div>
+            <a href="#cta" class="service-card__link">Inquire →</a>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__number">04</div>
+            <div class="service-card__content">
+              <h3 class="service-card__title">Product UI/UX Design</h3>
+              <p class="service-card__text">Enterprise-grade interface design systems for SaaS, mobile, and digital products — built to delight and retain.</p>
+              <ul class="service-card__list">
+                <li>UX Research & Wireframing</li>
+                <li>UI Design Systems</li>
+                <li>Prototype & Testing</li>
+              </ul>
+            </div>
+            <a href="#cta" class="service-card__link">Inquire →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Client Voice</span>
+          <h2 class="section__title">Words From Those<br/>Who've Experienced It</h2>
+        </div>
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__quote">"</div>
+            <p class="testimonial-card__text">AEVUM redefined what we thought was possible for our brand. The website they delivered wasn't just beautiful — it tripled our conversion rate within 60 days.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">NK</div>
+              <div>
+                <span class="author__name">Nadia Kessler</span>
+                <span class="author__role">CEO, Luminary Capital</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__quote">"</div>
+            <p class="testimonial-card__text">Choosing AEVUM was the single best business decision we made this year. They don't just execute — they elevate. Our Series A deck design closed our round.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">JM</div>
+              <div>
+                <span class="author__name">James Morel</span>
+                <span class="author__role">Founder, Vantix AI</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__quote">"</div>
+            <p class="testimonial-card__text">The level of craft and strategic thinking AEVUM brings is unmatched. We've worked with many agencies. None have delivered at this caliber consistently.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">SP</div>
+              <div>
+                <span class="author__name">Sara Petrov</span>
+                <span class="author__role">CMO, Orbit Finance</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FINAL CTA ========== -->
+    <section class="cta-section section" id="cta">
+      <div class="cta-section__bg">
+        <div class="cta-section__orb cta-section__orb--1"></div>
+        <div class="cta-section__orb cta-section__orb--2"></div>
+      </div>
+      <div class="container cta-section__inner">
+        <span class="section__eyebrow reveal">Ready When You Are</span>
+        <h2 class="cta-section__headline reveal">
+          Your Best Work<br/>Starts Here.
+        </h2>
+        <p class="cta-section__subtext reveal">
+          We have limited availability for new engagements.<br/>
+          Secure your spot before the next quarter begins.
+        </p>
+        <a href="mailto:hello@aevum.studio" class="btn btn--primary btn--xl reveal">Begin Your Project</a>
+        <p class="cta-section__note reveal">No retainer lock-in. Transparent pricing. Results guaranteed.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <img src="images/logo.png" alt="AEVUM Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"/>
+            <span class="logo-fallback">AEVUM</span>
+          </a>
+          <p class="footer__tagline">Luxury digital experiences<br/>for the bold and visionary.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4 class="footer__col-title">Services</h4>
+            <ul>
+              <li><a href="#services">Brand Identity</a></li>
+              <li><a href="#services">Web Design</a></li>
+              <li><a href="#services">Digital Strategy</a></li>
+              <li><a href="#services">UI/UX Design</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Company</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#testimonials">Clients</a></li>
+              <li><a href="#cta">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Contact</h4>
+            <ul>
+              <li><a href="mailto:waleedaw778@gmail.com">waleedaw778@gmail.com</a></li>
+              <li><a href="tel:+923215459190">+92 321 545 9190</a></li>
+              <li><span>Pakistan / Remote / Worldwide</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">© 2025 AEVUM Studio. All rights reserved.</span>
+        <!-- Nayi line -->
+<span class="footer__credit">Design by <a href="tel:+923215459190"><strong>Waleed</strong></a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
